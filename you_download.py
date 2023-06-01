@@ -139,7 +139,7 @@ def video_details_page(res_dict=res_dict):
 
 input_widgets_frame = ttk.Frame(master=app)
 yt_logo = ImageTk.PhotoImage(
-    PIL.Image.open(resource_path("C:\\Users\\HP\\PycharmProjects\\RevisingPython\\dist\\Assets\\yt_logo.png")).resize(
+    PIL.Image.open("C:\\Users\\HP\\PycharmProjects\\RevisingPython\\dist\\Assets\\yt_logo.png").resize(
         (275, 190)))
 yt_logo_label = ttk.Label(image=yt_logo)
 watermark = ttk.Label(master=app, text="AtonX", font="Calibri 7 bold")
